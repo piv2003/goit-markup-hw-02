@@ -20,15 +20,84 @@ body {
   color: var(--text-black-color);
 }
 
+/* **************************HEADER start******************/
+.header-logo-link,
+.footer-logo-link {
+  color: var(--basic-blue);
+  text-decoration: none;
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-link-text,
+.footer-logo-link-text {
+  color: var(--text-black-full);
+}
+
+.header-navigation-item-link:hover,
+.header-contacts-item-link:hover,
+.header-navigation-item-link:focus,
+.header-contacts-item-link:focus {
+  color: var(--basic-blue);
+}
+
+.header-navigation-item-link,
+.header-contacts-item-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  Line-height: 1.14;
+  letter-spacing: 0.02em;
+  /* padding: 10px 0; */
+}
+
+/* **************************NAV start******************/
+.header-navigation-item-link {
+  color: var(--text-black-color);
+}
+
+.header-contacts-item-link {
+  color: var(--text-lightgray-color);
+}
+
+.header-navigation-list,
+.header-contacts-list {
+  list-style-type: none;
+}
+
+/* ******************** MAIN start *********************/
+/* ***************section - effective-solutions start****/
+.effective-solutions {
+  margin: 0;
+  height: 600px;
+  background-color: var(--basic-dark);
+}
+
+.effective-solutions-title {
+  margin: 0;
+  width: 696px;
+  padding-top: 200px;
+  color: var(--basic-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
