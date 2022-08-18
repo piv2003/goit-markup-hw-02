@@ -3,24 +3,28 @@
   --basic-dark: #2f303a;
   --basic-blue: #2196f3;
   --basic-background: #e5e5e5;
-  --background-our-team: #f5f4fa;
   --basic-white: #fff;
-  --grey-footer-text: #acacb0;
   --basic-gray: rgba(255, 255, 255, 0.6);
+  --text-grey-footer: #acacb0;
   --text-black-full: #000;
   --text-black-color: #212121;
   --text-lightgray-color: #757575;
+  --background-our-team: #f5f4fa;
   --font-logo: "Raleway", sans-serif;
   --font-main: "Roboto", sans-serif;
+
 }
 
 body {
   font-family: var(--font-main);
   font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-style: normal;
   color: var(--text-black-color);
 }
 
-/* **************************HEADER start******************/
+/*****HEADER start*****/
 .header-logo-link,
 .footer-logo-link {
   color: var(--basic-blue);
@@ -29,7 +33,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .header-logo-link-text,
@@ -48,10 +51,8 @@ body {
 .header-contacts-item-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   Line-height: 1.14;
   letter-spacing: 0.02em;
-  /* padding: 10px 0; */
 }
 
 /* **************************NAV start******************/
@@ -64,22 +65,21 @@ body {
 }
 
 .header-navigation-list,
-.header-contacts-list {
+.header-contacts-list,
+.features-list,
+.our-business-list,
+.our-team-list,
+.footer-address-list {
   list-style-type: none;
 }
 
-/* ******************** MAIN start *********************/
-/* ***************section - effective-solutions start****/
+/*************** MAIN start *******************/
+/*****section - effective-solutions start*****/
 .effective-solutions {
-  margin: 0;
-  height: 600px;
   background-color: var(--basic-dark);
 }
 
 .effective-solutions-title {
-  margin: 0;
-  width: 696px;
-  padding-top: 200px;
   color: var(--basic-white);
   font-weight: 900;
   font-size: 44px;
@@ -88,6 +88,20 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+.effective-solutions-buttons {
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*****section - features start*****/
 
 .visually-hidden {
   position: absolute;
@@ -100,4 +114,48 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.features-item-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list-text {
+  color: var(--text-lightgray-color);
+  line-height: 1.7;
+}
+
+/*****section - our-business start*****/
+.our-business-title,
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/*****section - our-team start*****/
+.our-team {
+  background-color: var(--background-our-team);
+}
+
+.our-team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.our-team-item-function {
+  color: var(--text-lightgray-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*****FOOTER start*****/
+.footer {
+  background-color: var(--basic-dark);
 }
