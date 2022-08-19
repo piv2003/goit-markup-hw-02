@@ -102,6 +102,7 @@ body {
 .effective-solutions-buttons {
   background-color: var(--basic-blue);
   color: var(--basic-white);
+  font-family: var(--font-main);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
