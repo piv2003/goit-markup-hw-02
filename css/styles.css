@@ -12,7 +12,7 @@
   --background-our-team: #f5f4fa;
   --font-logo: "Raleway", sans-serif;
   --font-main: "Roboto", sans-serif;
-
+  --secondary-accent-color: #188CE8;
 }
 
 body {
@@ -40,10 +40,18 @@ body {
   color: var(--text-black-full);
 }
 
+.header-navigation-item-link.current {
+  color: var(--basic-blue);
+}
+
 .header-navigation-item-link:hover,
 .header-contacts-item-link:hover,
+.footer-item-contacts-link:hover,
+.footer-item-link:hover,
 .header-navigation-item-link:focus,
-.header-contacts-item-link:focus {
+.header-contacts-item-link:focus,
+.footer-item-contacts-link:focus,
+.footer-item-link:focus {
   color: var(--basic-blue);
 }
 
@@ -69,7 +77,9 @@ body {
 .features-list,
 .our-business-list,
 .our-team-list,
-.footer-address-list {
+.footer-address-list,
+.portf-buttons-list,
+.portf-blocks-list {
   list-style-type: none;
 }
 
@@ -158,4 +168,60 @@ body {
 /*****FOOTER start*****/
 .footer {
   background-color: var(--basic-dark);
+}
+
+.footer-item-link {
+  color: var(--text-grey-footer);
+}
+
+.footer-item-contacts-link,
+.footer-logo-link-text {
+  color: var(--basic-white);
+}
+
+.footer-item-contacts-link,
+.footer-item-link {
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/*****PORTFOLIO start*****/
+.portf-main-buttons {
+  border-radius: 4px;
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.portf-main-buttons:hover {
+  background-color: var(--basic-blue);
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5));
+  color: var(--basic-white);
+}
+
+.portf-main-buttons:focus {
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.portf-blocks-item-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-black-color);
+}
+
+.portf-blocks-item-function {
+  font-size: 16px;
+  color: var(--text-lightgray-color);
+}
+
+.portf-blocks-list-link {
+  text-decoration: none;
 }
