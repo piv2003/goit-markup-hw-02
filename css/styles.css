@@ -2,7 +2,6 @@
 :root {
   --basic-dark: #2f303a;
   --basic-blue: #2196f3;
-  --basic-background: #e5e5e5;
   --basic-white: #fff;
   --basic-gray: rgba(255, 255, 255, 0.6);
   --text-grey-footer: #acacb0;
@@ -17,7 +16,6 @@
 
 body {
   font-family: var(--font-main);
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -33,6 +31,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .header-logo-link-text,
@@ -145,6 +144,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -158,12 +158,14 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team-item-function {
   color: var(--text-lightgray-color);
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -222,6 +224,8 @@ body {
 
 .portf-blocks-item-function {
   font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--text-lightgray-color);
 }
 
